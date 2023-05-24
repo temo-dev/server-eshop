@@ -6,7 +6,7 @@ export class PrismaService extends PrismaClient {
     super({
       datasources: {
         db: {
-          url: 'postgres://temo-dev:S15UHqcolJTB@ep-steep-math-885945-pooler.eu-central-1.aws.neon.tech/neondb?pgbouncer=true&connect_timeout=10',
+          url: 'postgres://default:SZePyH1U9Gik@ep-shy-fog-278804-pooler.eu-central-1.postgres.vercel-storage.com:5432/verceldb?pgbouncer=true&connect_timeout=15',
         },
       },
     });
