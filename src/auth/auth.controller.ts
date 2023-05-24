@@ -13,7 +13,7 @@ export class AuthController {
   @Get('/')
   showSomething() {
     {
-      return 'hello world';
+      return 'hello world Tuan Anh';
     }
   }
 
